@@ -1,27 +1,7 @@
-              xxxxxxxxxxxxx                         xx  xxx                                          
-             xxxxxxxxxxxxxxx                      xxx  xxxx                                         
-             xxxxxxxxxxxxxxx                      xxxxxxxx                                          
-        xx        xxx                   xxxxxxx     xxxxx     xx                                    
-     xxxxx        xxx                  xxxxxxxxx     xxx      xxxx                                  
-   xxxxx          xxx                 xxxx    xxx    xxx        xxxxm                               
-  xxxx            xxx                 xxxx    xxxx   xxx          xxxx                              
-  xxxxx           xxx     xxxxxxx      xxxxxxxxxx    xxx         xxxxx                              
-    xxxxx         xxx    xxxxxxxxx      xxxxxxxx     xxx       xxxxx                                
-      wxxx        xxx   xxxx    xxxx                 xxx      xxx                                   
-         x        xxx   xxxx    xxxx               xxxxxxx    x                                     
-                  xxx    xxxxxxxxxx               xxx   xx                                          
-                  xxx     xxxxxxxx                 xxxxxxx                                          
-                                                    xxxxx  
-
-********************************************************************
-       		   Copyright (c) 2009, www.a-jie.cn
-              		  All rights reserved.
-					  
-					  msn: a-jie.cn@msn.com
-					  qq : 12688191
 ******************************************************************** 
                                                             
 							类-结-构(一部分没有在下表列出)		     		
+********************************************************************
 ********************************************************************
    tool
 		xml:
