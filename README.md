@@ -1,5 +1,4 @@
-
-![github](http://github.com/a-jie/-TOOL--library-for-as3/blob/master/tool/logo.jpg "github")  
+![github](https://raw.github.com/a-jie/-TOOL--library-for-as3/master/tool/logo.jpg "github")  
 ******************************************************************** 
                                                             
 							类-结-构(一部分没有在下表列出)		     		
