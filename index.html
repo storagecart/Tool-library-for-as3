@@ -23,8 +23,8 @@
         </header>
 
         <section id="downloads" class="clearfix">
-          <a href="https://github.com/a-jie/-TOOL--library-for-as3/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/a-jie/-TOOL--library-for-as3/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/a-jie/-TOOL--library-for-as3/zipball/master" id="download-zip" class="button"><span>Library.zip</span></a>
+          <a href="./demo.zip" id="download-zip" class="button"><span>DEMO.zip</span></a>
           <a href="https://github.com/a-jie/-TOOL--library-for-as3" id="view-on-github" class="button"><span>View on GitHub</span></a>
         </section>
 
@@ -32,37 +32,179 @@
 
         <section id="main_content">
           <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>简介</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>-tool-library-for-as3<span left-pos="9|13" right-pos="9|13" space="">是一个灵活的、功能丰富的</span><span left-pos="23|12" right-pos="23|12" space="">ActionScript</span><span left-pos="36|7" right-pos="36|7" space="">3.0工具库</span><span left-pos="44|22" right-pos="44|22" space="">。它是各种小工具的集合，几乎涉及到了日常开发的方方面面</span><span left-pos="101|19" right-pos="101|19" space=""></span>。使用<span left-pos="121|17" right-pos="121|17" space="">它可以帮你有效的简化工作流程、节约工作时间、提高工作效率</span><span left-pos="252|18" right-pos="252|18" space=""></span><span left-pos="270|1" right-pos="270|1" space="">。<a href="./demo.zip">DEMO.zip</a>里包含了该库的部分例子（仅仅是一部分）。</span></p>
+<p><img src="images/logo.jpg" width="230" height="130" alt="logo"></p>
+<h3>
+		<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>类结构</h3>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p class="h101">xml:</p>
+<p> XMLLoader.as         ---------------------- 加载xml的类</p>
+<p> xmlToArray.as        ---------------------- xml转换Array</p>
+<p> </p>
+<p class="h101"> util:</p>
+<p> ArrayUtil.as         ---------------------- 数组辅助功能</p>
+<p> setFrameout.as       ---------------------- 延迟（帧）函数</p>
+<p> clearFrameout.as     ---------------------- 清除延迟函数</p>
+<p> delayOut.as          ---------------------- 延迟（秒）函数</p>
+<p> EnterFrame.as        ---------------------- 类似as2enterFrame</p>
+<p> NumberUtil.as        ---------------------- 逐个递加数字</p>
+<p> setFor.as       	 ---------------------- for循环函数体</p>
+<p> tryRun.as       	 ---------------------- try catch运行函数</p>
+<p> </p>
+<p class="h101"> url:</p>
+<p> Address.as         	---------------------- 设置为首页/添加收藏夹/获取地址栏地址并且复制到右键</p>
+<p> URL.as        		---------------------- 跳转html/获取文件地址 </p>
+<p> Cookies.as        	---------------------- shareObject类似cookies</p>
+<p> HtmCookies.as       ---------------------- 真实cookies</p>
+<p> JavaScript.as       ---------------------- javascript交互</p>
+<p> HTTPS.as       		---------------------- url随机数</p>
+<p> SNS.as       		---------------------- 各个sns网站的分享</p>
+<p> </p>
+<p class="h101"> timeline:</p>
+<p> prevPlay.as         ---------------------- 反向/正向播放mc</p>
+<p> Timeline.as       	---------------------- 处理时间轴</p>
+<p> </p>
+<p class="h101"> time:</p>
+<p> TimeClick.as        ---------------------- 计时器</p>
+<p> TimeCount.as       	---------------------- 计数器</p>
+<p> TimeFormat.as       ---------------------- 格式化时间</p>
+<p> </p>
+<p class="h101"> text:</p>
+<p> BitmapText.as       ---------------------- bitmap文本副本</p>
+<p> setDText.as         ---------------------- 快速设置动态文本</p>
+<p> replaceAll.as       ---------------------- 替换字符</p>
+<p> MiniFont.as         ---------------------- mini字体库</p>
+<p> </p>
+<p class="h101"> test:</p>
+<p> MainLoad.as         ---------------------- 测试框架</p>
+<p> </p>
+<p class="h101"> stage:</p>
+<p> AutoSize.as         ---------------------- 自适应屏幕尺寸</p>
+<p> FullScreen.as       ---------------------- 控制全屏</p>
+<p> StageInit.as        ---------------------- 初始化场景</p>
+<p> </p>
+<p class="h101"> object:</p>
+<p> AClass.as           ---------------------- 获取对象所属的类</p>
+<p> all.as      	    ---------------------- 全体对象调整</p>
+<p> some.as        		---------------------- 遍历并调用对象集属性</p>
+<p> </p>
+<p class="h101"> move:</p>
+<p> BasicMove.as        ---------------------- 简单的运动方式</p>
+<p> </p>
+<p class="h101"> mouse:</p>
+<p> Menu.as         	---------------------- 右键菜单</p>
+<p> MouseCheck.as       ---------------------- 检查鼠标是否移动</p>
+<p> </p>
+<p class="h101"> load:</p>
+<p> GroupLoader.as      ---------------------- 列队加载一组元素</p>
+<p> MCLoader.as         ---------------------- loader组件</p>
+<p> ProLoader.as        ---------------------- 预加载</p>
+<p> </p>
+<p class="h101"> geom:</p>
+<p> Rectangular.as      ---------------------- 控制目标在矩形区域内</p>
+<p> RectangleUI.as.as   ---------------------- RectangleUI工具条</p>
+<p> </p>
+<p class="h101"> events:</p>
+<p> BasicEvent.as       ---------------------- 基本事件模式</p>
+<p> ButtonEvent.as      ---------------------- button相关的事件</p>
+<p> FLVEvent.as         ---------------------- FLV相关的事件</p>
+<p> LoadEvent.as        ---------------------- load相关的事件</p>
+<p> ListEvent.as        ---------------------- list相关的事件</p>
+<p> EventManager.as     ---------------------- 强大的事件管理器</p>
+<p> </p>
+<p class="h101"> draw:</p>
+<p> Painter.as          ---------------------- 绘图类</p>
+<p> Pen.as      		---------------------- 画笔</p>
+<p> SmoothCurve.as      ---------------------- 生成光滑曲线</p>
+<p> </p>
+<p class="h101"> debug:</p>
+<p> Debug.as            ---------------------- 5K Debug</p>
+<p> trace.as      		---------------------- 覆写trace</p>
+<p> traced.as      		---------------------- traced输出</p>
+<p> </p>
+<p class="h101"> data:</p>
+<p> DataInterface.as    ---------------------- 简化flash和后台交互</p>
+<p> ValueMode.as      	---------------------- 后台模式</p>
+<p> ListPage.as      	---------------------- 实现flash列表相关功能</p>
+<p> </p>
+<p class="h101"> display:</p>
+<p> addChildAndInit.as  ---------------------- 添加显示对象并初始化</p>
+<p> ContainerMovieClip.as 	------------------ movieClip容器，一般用来存放加载的</p>
+<p> DisplayGroup.as     ---------------------- 显示对象群组</p>
+<p> DisplayHelper.as    ---------------------- 处理显示对象简便操作</p>
+<p> hitTestObjects.as   ---------------------- 像素级碰撞检测</p>
+<p> LoaderSprite.as   	---------------------- 处理Loader相关的Sprite</p>
+<p> Registration.as   	---------------------- 变换注册点</p>
+<p> SubMovieClip.as   	---------------------- movieClip基类</p>
+<p> QMC.as   			---------------------- 快速MovieClip</p>
+<p class="h102"> bitmap:</p>
+<p> GoodBmp.as			---------------------- 新的bitmap</p>
+<p class="h102"> color:</p>
+<p> Color.as			---------------------- 颜色工具</p>
+<p class="h102"> quick:</p>
+<p> QuickMovieClipArray.as	---------------------- 保存QMC对象</p>
+<p class="h102"> shell:</p>
+<p> CoreShell.as		---------------------- 控制显示对象的外壳</p>
+<p> </p>
+<p class="h101"> fp10(仅支持fp10.0以上版本):</p>
+<p class="h102"> a3d:(--A3D--)</p>
+<p> A3D.as				---------------------- 参数配置</p>
+<p> Ball.as				---------------------- 球</p>
+<p> Box.as				---------------------- 盒子</p>
+<p> Camera3D.as			---------------------- 摄像机</p>
+<p> Container3D.as		---------------------- 3d容器</p>
+<p> Plane.as			---------------------- 基本面</p>
+<p> Scene3D.as			---------------------- 主场景</p>
+<p class="h102"> core:</p>
+<p> FP10Object3d.as      	---------------------- 基本3d对象</p>
+<p> IFP10Object3d.as      	---------------------- 3D对象接口</p>
+<p> Light.as      			---------------------- 灯光</p>
+<p> Material.as      		---------------------- 材质</p>
+<p class="h102"> move:</p>
+<p> Move.as      			---------------------- 运动制作器</p>
+<p> OrderTool.as      		---------------------- Z轴排序器</p>
+<p> zOrder.as      			---------------------- Z轴排序函数</p>
+<p> ToolMaker.as      		---------------------- 3d工具制造器</p>
+<p> </p>
+<p class="h101"> fp10:</p>
+<p class="h102"> upfile</p>
+<p> JPGLoader.as		---------------------- 本地图片上传保存</p>
+<p> JPGEncoder.as		---------------------- 压缩为jpg</p>
+<p> PNGEncoder.as		---------------------- 压缩为png</p>
+<p> </p>
+<p class="h101"> component:</p>
+<p class="h102"> button:</p>
+<p> BasicButton.as				---------------------- 基本的按钮MODEL</p>
+<p> AssociativeButton.as		---------------------- 串联按钮MODEL.</p>
+<p> ParallelButton.as			---------------------- 并联按钮MODEL</p>
+<p> LabelButton.as				---------------------- 加标签的按钮</p>
+<p> TwoFaceButton.as			---------------------- 两帧型按钮</p>
+<p> ButtonManage.as				---------------------- 按钮统一管理器</p>
+<p class="h102"> interactive:</p>
+<p> DragComponent.as			---------------------- 拖动功能元件。</p>
+<p> MouseFollow.as				---------------------- 一组对象的鼠标跟随</p>
+<p> MouseFollowBg.as			---------------------- 跟随鼠标的背景</p>
+<p class="h102"> media:</p>
+<p> FLVVideo.as					---------------------- FLV播放器</p>
+<p> MP3Sound.as					---------------------- 简单mp3播放器</p>
+<p class="h102"> mouse:</p>
+<p> Cursor.as					---------------------- 自定义鼠标指针</p>
+<p class="h102"> text:</p>
+<p> InputText.as				---------------------- 设置输入文本</p>
+<p> Typewriter.as				---------------------- 打字效果</p>
+<p class="h102"> ui:</p>
+<p> BlackMask.as				---------------------- 全屏遮罩</p>
+<p> TipBox.as					---------------------- 提示框TipBox</p>
+<p> ScrollPane.as				---------------------- 滚动窗口组件</p>
+<p> SliderLine.as				---------------------- 滚动条组件</p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+		<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>联系</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
+<p>如果您对该类有任何问题，请给我发邮件<a href="mailto:a-jie.cn@msn.com">a-jie.cn@msn.com</a>，或者私信我的微博<a href="http://weibo.com/ajiecn">http://weibo.com/ajiecn</a>。</p>
+</section>
 
         <footer>
           -tool-library-for-as3 is maintained by <a href="https://github.com/a-jie">a-jie</a><br>
