@@ -1,13 +1,17 @@
-![github](https://raw.github.com/a-jie/-TOOL--library-for-as3/master/tool/logo.jpg "github")  
+# \<Tool> ActionScript3.0 tool Class
+
 ******************************************************************** 
                                                             
 							类-结-构(一部分没有在下表列出)		     		
 ********************************************************************
-		xml:
+		
+		
+```javascript
+	xml:
 			XMLLoader.as         ---------------------- 加载xml的类
 			xmlToArray.as        ---------------------- xml转换Array
 			
-		util:
+	util:
 			ArrayUtil.as         ---------------------- 数组辅助功能
 			setFrameout.as       ---------------------- 延迟（帧）函数
 			clearFrameout.as     ---------------------- 清除延迟函数
@@ -17,8 +21,8 @@
 			setFor.as       	 ---------------------- for循环函数体
 			tryRun.as       	 ---------------------- try catch运行函数
 			
-		url:
-			Address.as         	---------------------- 设置为首页/添加收藏夹/获取地址栏地址并且复制到右键
+	url:
+			Address.as         	---------------------- 设置为首页/添加收藏夹/获取地址栏并复制到右键
 			URL.as        		---------------------- 跳转html/获取文件地址 
 			Cookies.as        	---------------------- shareObject类似cookies
 			HtmCookies.as        	---------------------- 真实cookies
@@ -26,25 +30,25 @@
 			HTTPS.as       		---------------------- url随机数
 			SNS.as       		---------------------- 各个sns网站的分享
 			
-		timeline:
+	timeline:
 			prevPlay.as         ---------------------- 反向/正向播放mc
 			Timeline.as       	---------------------- 处理时间轴
 			
-		time:
+	time:
 			TimeClick.as        ---------------------- 计时器
 			TimeCount.as       	---------------------- 计数器
 			TimeFormat.as       ---------------------- 格式化时间
 			
-		text:
+	text:
 			BitmapText.as       ---------------------- bitmap文本副本
 			setDText.as         ---------------------- 快速设置动态文本
 			replaceAll.as       ---------------------- 替换字符
 			MiniFont.as         ---------------------- mini字体库
 			
-		test:
+	test:
 			MainLoad.as         ---------------------- 测试框架
 			
-		third:（部分第三方类）
+third:（部分第三方类）
 			
 		stage:
 			AutoSize.as         ---------------------- 自适应屏幕尺寸
@@ -165,4 +169,4 @@
 				TipBox.as					---------------------- 提示框TipBox
 				ScrollPane.as				---------------------- 滚动窗口组件
 				SliderLine.as				---------------------- 滚动条组件
-		
+```
